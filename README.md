@@ -37,11 +37,11 @@ npm start
 + "predeploy": "npm run build",
 + "deploy": "gh-pages -d build" 
 ```
-3. install gh-pages
+3. Install gh-pages
 ```sh
 npm install --save-dev gh-pages
 ```
-4. deploy website 
+4. Deploy website 
 ```sh
 npm run deploy
 ```
@@ -55,8 +55,8 @@ npm run deploy
 
 ## Functionalities Introduction
 1. Only one sender is allowed.
-2. Support for multiple recipients which should be seperate by ';'.
-3. Support for multiple CCs and BCCs which should be seperate by ';'.
+2. Support for multiple recipients which should be seperated by ';'.
+3. Support for multiple CCs and BCCs which should be seperated by ';'.
 4. Dynamically add form fields.
 5. Form field input value validation.
 6. Support for failover.
