@@ -39,7 +39,7 @@ class EmailSystemForm extends Component {
       cc: data.CCs,
       bcc: data.BCCs
     }
-    axios.post('http://localhost:4200/sendEmail', payload)
+    axios.post('/api/sendEmail', payload)
     .then(res => 
       {
         const msg = res.data;

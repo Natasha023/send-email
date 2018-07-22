@@ -4,7 +4,7 @@ const sendEmailWithMailgun = require("../services/mailgun");
 const sendEmailWithSendGrid = require("../services/sendgrid");
 
 
-ServerPortRouter.route('/sendEmail').post(function (req, res) {
+ServerPortRouter.route('/api/sendEmail').post(function (req, res) {
   //send by sendgrid first
   return sendEmailWithSendGrid(req.body).then(()=>{
      res.status(200).send('Send Mail Successfully!');
