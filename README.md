@@ -34,8 +34,8 @@ npm start
 2. Add these lines of code to package.json script part: 
 ```diff
 "script":{
-    + "predeploy": "npm run build",
-    + "deploy": "gh-pages -d build" 
++ "predeploy": "npm run build",
++ "deploy": "gh-pages -d build" 
 ```
 3. install gh-pages
 ```sh
@@ -61,7 +61,7 @@ npm run deploy
 5. Form field input value validation.
 6. Support for failover.
 
-##TODOS
+## TODOS
 1. Should write unit test and E2E test cases
 2. Should input index.js and index.css into client folder
 3. Styling should be better
