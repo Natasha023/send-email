@@ -62,8 +62,5 @@ npm run deploy
 6. Support for failover.
 
 ## TODOS
-1. Should write unit test and E2E test cases
-2. Should input index.js and index.css into client folder
-3. Styling should be better
-4. Should have more logs for errors and more comments
+1. Write unit test and E2E test cases
 
