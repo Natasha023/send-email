@@ -1,0 +1,27 @@
+@import '~antd/dist/antd.css';
+.App {
+  width: 750px;
+  height: 675px;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+}
+.card-style {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 80%;
+}
+.btn-cc {
+  margin-left: 8px;
+}
+
+.input-size {
+  height: 25px; 
+  width: 310px;
+}
+
+.textarea-size {
+  height: 300px; 
+  width: 600px;
+  border : 1px #d4d4d4 solid;
+}

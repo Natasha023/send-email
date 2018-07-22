@@ -1,0 +1,31 @@
+{
+  "name": "send-email",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "ajv": "^6.5.2",
+    "ajv-keywords": "^3.2.0",
+    "antd": "^3.7.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mailgun-js": "^0.20.0",
+    "nodemon": "^1.18.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
